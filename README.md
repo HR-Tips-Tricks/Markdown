@@ -14,7 +14,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Ordered Lists 	  | 1. Item A  <br>  2. Item 58008	                              | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
 | Mixed Lists 	    | 1. Item 6969  <br>   &emsp;\- item 1a 	                            | <ol><li>Item 6969</li><ul><li>item 1a</li></ul></ol> 		|
 | Emojis:exclamation:  | `:+1:  :metal:  :octocat:  :trollface:  :cat2:`            | :+1: :metal: :octocat:  :trollface: :cat2: |
-| Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
+| Line breaks 	    | Some text [Double space + enter] (this is important) <br> 	Moar Text                  | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! <br> \>\> or nested | <blockquote>Woah, look how cool this is <br> And on multiple lines! <br> <blockquote>or nested</blockquote> </blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `github [training wheels](https://try.github.io/)`  	| github [training wheels](https://try.github.io/) 	|
 | Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | <img src='/images/chkboxex.png' width='200px' /> |
@@ -87,7 +87,7 @@ Some examples on how to format in Markdown (.md) [README.md]
   
   
   Note:
-    - When mixing HTML and Markdown code, you'll need to do TWO hard Enters after the line before switching to one or the other. 
+    - When mixing HTML and Markdown code, you'll need to do TWO hard Enters after the line before switching to one or the other.  
     - Best practice is just to stick to one language throughout the document.
     
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
