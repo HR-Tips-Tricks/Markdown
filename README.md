@@ -15,8 +15,8 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                            | <ol><li>Item 6969</li></ol><ul><li>item 1a</li></ul> 		|
 | Emojis:exclamation:  | `:+1:  :metal:  :octocat:  :trollface:  :cat2:`            | :+1: :metal: :octocat:  :trollface: :cat2: |
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
-| Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! | <blockquote>Woah, look how cool this is</blockquote><br><blockquote> And on multiple lines!</blockquote> 	|
-| Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
+| Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! | <blockquote>Woah, look how cool this is</blockquote><blockquote> And on multiple lines!</blockquote> 	|
+| Inline links 	    | \[Description text\](url here) <br> example on right: `github [training wheels](https://try.github.io/)`  	| github [training wheels](https://try.github.io/) 	|
 | Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | <img src='/images/chkboxex.png' width='200px' /> |
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` 	|
