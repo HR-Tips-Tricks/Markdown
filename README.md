@@ -16,7 +16,6 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Mixed Lists 	    | 1. Item 1      * item 1a 	|  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
 | Block quote 	    | \> Quoted text 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Preformatted 	    | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
-|
 | Code 	            | \`Insert Code\` 	| `cout<<"Hello world";` 	|
 | Code block/ Syntax highlighting 	| \`\`\`insert code\`\`\` 	|  <a href="#section1">Hey,Please read the note below this table. 	|
 | Strike through 	  | \~~Insert text here\~~ 	    | ~~I am dead~~ 	|
