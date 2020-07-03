@@ -33,7 +33,5 @@ Some examples on how to format in Markdown (.md) [README.md]
   
     ```HTML
       You're really bringing me down<sup><a href="#fn1" id="ref1">1</a></sup>
-    ```
-    ```HTML
       <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
     ```
