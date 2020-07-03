@@ -28,6 +28,10 @@ Some examples on how to format in Markdown (.md) [README.md]
 |---|----------|:-------------:|------:|
 |alignment| left| center | right |
 
+
+--------
+
+
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
   <h4>Here's a footer example</h4>  
   The footer subscript <text color='blue'>1</text> below is written in HTML.  
@@ -35,9 +39,9 @@ Some examples on how to format in Markdown (.md) [README.md]
   
   We can then tag it with some cool HTML syntax coloring with  
   `
-  \`\`\`HTML 
-    text of stuff
-  \`\`\`
+    \```HTML 
+      text of stuff
+    \`\`\`
   `
   
   ```HTML 
