@@ -1,3 +1,7 @@
+Measly Underline <hr border-top: 1px solid #8c8b8b /> 
+
+
+
 # Markdown
 Some examples on how to format in Markdown (.md) [README.md]
 
@@ -21,7 +25,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```HTML A whole bunch of code``` 	|
 | Reference Headers | \[Footer Example\](\#heres-a-footer-example)               | [Footer Example](#heres-a-footer-example) |
-| Thin Thematic Break  | Measly Underline <br> \-\-\-                                | Measly Underline <hr height:'.1px'>  |
+| Thin Thematic Break  | Measly Underline <br> \-\-\-                                | Measly Underline <hr height:1px>  |
 | Thick Thematic Break | Purposeful Underline <br><br> \-\-\-                        | Purposeful Underline <hr> |
 | Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! <img src='images/nyancat.png' width='100px' /> 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me <a href='https://www.youtube.com/watch?v=QH2-TGUlwu4' target="_blank"><img src='images/nyancat.png' width='100px' /></a> |
@@ -38,7 +42,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
   <h2>Here's a footer example</h2>
-  The footer subscript <sup color:'red'><a>1</a></sup> below is written in HTML.<br>
+  The footer subscript <sup color:red;><a>1</a></sup> below is written in HTML.<br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>
   
   _Notice_ the ID within the footer subscript's tag: `<sup><a href="\#fn1" id="ref1">1</a></sup>`
