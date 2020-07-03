@@ -31,15 +31,9 @@ Some examples on how to format in Markdown (.md) [README.md]
 <h2>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h2>  
   <h4>Here's a footer example</h4>  
   
-    `You're really bringing me down<sup><a href="#fn1" id="ref1">1</a></sup>`
-    
-    
-    
-    
-    
-    
-  
-  
-```HTML
-  <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
-```
+    ```HTML
+      You're really bringing me down<sup><a href="#fn1" id="ref1">1</a></sup>
+    ```
+    ```HTML
+      <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
+    ```
