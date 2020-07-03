@@ -16,7 +16,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Woah, look how cool this is	                              | <blockquote>Woah, look how cool this is</blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
-| Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | ![](./images/chkboxex.png =20x) |
+| Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | <img src='/images/chkboxex.png' width='20' /> |
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` 	|
 | Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! ![image](/images/nyancat.png |width=20) 	|
