@@ -25,5 +25,5 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Tables 	          | \|\| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \|  |   |
 
 | | Tables   |      Are      |  Cool | 
-|-|----------|:-------------:|------:| 
+|---|----------|:-------------:|------:| 
 |alignemnt| left| center | right |
