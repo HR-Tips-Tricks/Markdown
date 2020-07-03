@@ -34,14 +34,14 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
   <h4>Here's a footer example</h4>  
-  The footer subscript <text color='blue'>1</text> below is written in HTML.  
-  You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>  
+  The footer subscript <text color='blue'>1</text> below is written in HTML.   <br>
+  You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>   
   
-  We can then tag it with some cool HTML syntax coloring with  
-  `
-    \```HTML 
+  We can then tag it with some cool HTML syntax coloring with   
+  `  
+    ```HTML   
       text of stuff
-    \`\`\`
+    ```
   `
   
   ```HTML 
