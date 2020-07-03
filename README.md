@@ -6,7 +6,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Italic  	| \*Text\* 	| *This is italic* 	|
 | Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
 | Inline links 	| \[Description text\](url here) 	| A [link](http://www.github.com) 	|
-| Images 	| \![Caption\](url to img) 	| An image ![image](http://i.imgur.com/hRLuez2.png) 	|
+| Images 	| \![Caption\](url to img) 	| An image ![image](/images/nyancat.png) 	|
 | Link+images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
 | Footnotes  	| I have more \[^1\] to say.   \[^1\]: say it down here. 	| <a href="#section1">Hey,Please read the note below this table.  	|
 | Line breaks 	| Double space + enter 	|  	|
