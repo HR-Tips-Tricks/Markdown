@@ -22,7 +22,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4) 	|
 | Footnotes  	      | You're really bringing me down\[^1\].   \[^1\]:down here. 	|  You're really bringing me down[^1].   [^1]:down here. 	|
 | Preformatted 	    | \ \ Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
-| Tables 	          | \|\| Tables   \|      Are      \|  Coolness \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \|  |   |
+| Tables 	          | \|\| Tables   \|      Are      \|  Coolness \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \|  | (/images/Markdown table example.png)  |
 
 | | Tables   |      Are      |  Coolness | 
 |---|----------|:-------------:|------:| 
