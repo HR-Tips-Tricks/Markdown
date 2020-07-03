@@ -90,14 +90,18 @@ Some examples on how to format in Markdown (.md) [README.md]
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   
-  -
-  --
+
   ---
+  
   ----
   
- =
- ==
- ===
- ====
+  ==
+  
+  ===
+  
+  ====
+  
+  =====
+
 
 <sup id="fn1">Why are you down here?<a href="#ref1" title="Jump back to footnote 1 in the text.">  ↩  <sub>jump back up there</sub></a></sup>
