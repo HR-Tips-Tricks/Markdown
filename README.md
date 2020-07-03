@@ -10,9 +10,9 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Italic with nested Bold | \*Italic Stallion is the \*\*Boldest\*\*\*            | *Italic Stallion is the **Boldest***   |
 | Both Italic and Bold | \*\*\* Boldest Italic Stallion\*\*\*                     | ***Boldest Italic Stallion***   |
 | Strike through 	  | \~~Strike through text, neat\~~ 	                          | ~~Strike through text, neat~~ 	|
-| Unordered Lists 	| \- Item 1     \+ Item 2    \* Item 7777                     | <ul><li>Item 1</li><br><li>Item 2</li><br><li>Item 7777</li></ol>	  |
-| Ordered Lists 	  | 1. Item A    2. Item 58008	                                | <ol><li>Item A</li><br><li>Item 58008</li></ol>  	|
-| Mixed Lists 	    | 1. Item 6969     \* item 1a 	                              | <ol<li>Item 6969</li><br><li>item 1a</li></ol> 		|
+| Unordered Lists 	| \- Item 1     \+ Item 2    \* Item 7777                     | <ul><li>Item 1</li><li>Item 2</li><li>Item 7777</li></ol>	  |
+| Ordered Lists 	  | 1. Item A    2. Item 58008	                                | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
+| Mixed Lists 	    | 1. Item 6969     \* item 1a 	                              | <ol><li>Item 6969</li></ol><ul><li>item 1a</li></ul> 		|
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                 | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Quoted text 	                                            |  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
