@@ -12,7 +12,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Strike through 	  | \~\~Strike through text, neat\~\~ 	                         | ~~Strike through text, neat~~ 	|
 | Unordered Lists 	| \- Item 1  <br>   \+ Item 2  <br>  \* Item 7777              | <ul><li>Item 1</li><li>Item 2</li><li>Item 7777</li></ol>	  |
 | Ordered Lists 	  | 1. Item A  <br>  2. Item 58008	                              | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
-| Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                            | <ol><li>Item 6969</li><ul><li>item 1a</li></ul></ol> 		|
+| Mixed Lists 	    | 1. Item 6969  <br>   &nbsp; \- item 1a 	                            | <ol><li>Item 6969</li><ul><li>item 1a</li></ul></ol> 		|
 | Emojis:exclamation:  | `:+1:  :metal:  :octocat:  :trollface:  :cat2:`            | :+1: :metal: :octocat:  :trollface: :cat2: |
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! <br> \>\> or nested | <blockquote>Woah, look how cool this is <br> And on multiple lines! <br> <blockquote>or nested</blockquote> </blockquote> 	|
@@ -23,6 +23,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Reference Headers | \[Footer Example\](\#heres-a-footer-example)               | [Footer Example](#heres-a-footer-example) |
 | Thin Thematic Break  | Measly Underline <br> \-\-\-                                | Measly Underline (thin line note available)  |
 | Thick Thematic Break | Purposeful Underline <br><br> \-\-\-                        | Purposeful Underline <hr> |
+| Extra spaces <br> <sup><i>only one space is allowed between words</i><sup> | \&nbsp; (one space) <br> \&ensp; (two spaces) <br> \&emsp; (four spaces) | Blah &nbsp;Blah <br> Blah &ensp;Blah <br> Blah &emsp;Blah
 | Escaping with backslashes |  \\\ \\` \\* \\_ \\{\\} \\[\\] \\(\\) \\# \\+ \\- \\. \\! | \\ \` \* \_ \{\} \[\] \(\) \# \+ \- \. \!
 | Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! <img src='images/nyancat.png' width='100px' /> 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me <a href='https://www.youtube.com/watch?v=QH2-TGUlwu4' target="_blank"><img src='images/nyancat.png' width='100px' /></a> |
