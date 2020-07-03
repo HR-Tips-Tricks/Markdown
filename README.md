@@ -1,12 +1,13 @@
 # Markdown
 Some examples on how to format in Markdown (.md) [README.md]
 
-| Format            | Syntax      | Example |
-| ------            |-----        |-----    |
-| Headers 	        | \#, \##, \###, \####, \#####, \###### (from h1 to h6) <br> \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>     	|  <h3>This is a h3 header</h3>	|
-| Italic  	        | \*Italic Stallion\*  OR \_Italic Stallion\_	| *Italic Stallion* 	|
-| Bold  	          | \*\*Only the Boldest\*\* 	OR \_\_Only the Boldest\_\| **Only the Boldest** 	|
-| Strike through 	  | \~~Strike through text, neat\~~ 	    | ~~Strike through text, neat~~ 	|
+| Format            | Syntax                                                                          | Example |
+| ------            |-----                                                                            |-----    |
+| Headers 	        | \#, \##, \###, \####, \#####, \###### (from h1 to h6) 
+               <br> \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>                                          |  <h3>This is a h3 header</h3>	|
+| Italic  	        | \*Italic Stallion\*  OR \_Italic Stallion\_	                                    | *Italic Stallion* 	|
+| Bold  	          | \*\*Only the Boldest\*\* 	OR \_\_Only the Boldest\_\_                           | **Only the Boldest** 	|
+| Strike through 	  | \~~Strike through text, neat\~~ 	                                              | ~~Strike through text, neat~~ 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
 | Images 	          | \![Caption\](url to img) 	| An image ![image](/images/nyancat.png) 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
