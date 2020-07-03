@@ -12,7 +12,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Strike through 	  | \~\~Strike through text, neat\~\~ 	                         | ~~Strike through text, neat~~ 	|
 | Unordered Lists 	| \- Item 1  <br>   \+ Item 2  <br>  \* Item 7777              | <ul><li>Item 1</li><li>Item 2</li><li>Item 7777</li></ol>	  |
 | Ordered Lists 	  | 1. Item A  <br>  2. Item 58008	                              | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
-| Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                            | <ol><li>Item 6969</li></ol><ul><li>item 1a</li></ul> 		|
+| Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                            | <ol><li>Item 6969</li><ul><li>item 1a</li></ul></ol> 		|
 | Emojis:exclamation:  | `:+1:  :metal:  :octocat:  :trollface:  :cat2:`            | :+1: :metal: :octocat:  :trollface: :cat2: |
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! <br> \>\> or nested | <blockquote>Woah, look how cool this is <br> And on multiple lines! <br> <blockquote>or nested</blockquote> </blockquote> 	|
