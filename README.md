@@ -10,14 +10,13 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Unordered Lists 	| \* Item1     \*Item 2 	                                    | <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
 | Ordered Lists 	  | 1. Item a    2. Item b 	                                    | <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
 | Mixed Lists 	    | 1. Item 1      * item 1a 	                                  |  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
+| Line breaks 	    | Some text [Double space + enter] 	Moar Text                 | Some text  <br>  Moar Text 	|
+| Block quote 	    | \> Quoted text 	                                            |  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
+| Code 	            | \`That sweet code you wanna show;\` 	                      | `That sweet code you wanna show;` 	|
+| Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` 	|
 | Images 	          | \![Caption\](url to img) 	                                  | An image ![image](/images/nyancat.png) 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\] 	            | Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
 | Footnotes  	      | I have more \[^1\] to say.   \[^1\]: say it down here. 	    | <a href="#section1">Hey,Please read the note below this table.  	|
-| Line breaks 	    | Some text [Double space + enter] 	Moar Text               | Some text  <br>  Moar Text 	|
-| Block quote 	    | \> Quoted text 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Preformatted 	    | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
-| Code 	            | \`Insert Code\` 	| `cout<<"Hello world";` 	|
-| Code block/ Syntax highlighting 	| \`\`\`insert code\`\`\` 	|  <a href="#section1">Hey,Please read the note below this table. 	|
-
 | Tables 	          | \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
