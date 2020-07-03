@@ -37,7 +37,7 @@ Some examples on how to format in Markdown (.md) [README.md]
   The footer subscript <sup><a>1</a></sup> below is written in HTML.<br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>
   
-  _Notice_ the id within the footer subscript's tag: `<sup><a href="\#fn1" id="ref1">1</a></sup>`
+  _Notice_ the ID within the footer subscript's tag: `<sup><a href="\#fn1" id="ref1">1</a></sup>`
   
   We can reference this ID when creating the footer, along with some cool HTML syntax coloring <br>
   
@@ -48,7 +48,7 @@ Some examples on how to format in Markdown (.md) [README.md]
   ```
   
   ```HTML 
-      <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
+      <sup id="fn1">Why are you down here?<a href="#ref1" title="Jump back to footnote 1 in the text.">  ↩  <sub>jump back up there</sub></a></sup>
   ```
   
   Or even some fancy Javascript 
@@ -82,4 +82,4 @@ Some examples on how to format in Markdown (.md) [README.md]
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<sup id="fn1">1 Why are you down here?<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
+<sup id="fn1">Why are you down here?<a href="#ref1" title="Jump back to footnote 1 in the text.">  ↩  <sub>jump back up there</sub></a></sup>
