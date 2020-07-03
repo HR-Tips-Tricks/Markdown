@@ -36,8 +36,8 @@ Some examples on how to format in Markdown (.md) [README.md]
   <h4>Here's a footer example</h4>  
   The footer subscript <span text-color='red'>1</span> below is written in HTML.   <br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>   
-  We can then tag it with some cool HTML syntax coloring with   
-  ```
+  We can then tag it with some cool HTML syntax coloring with    
+  ```  
     ```HTML   
       text of stuff
     ```
@@ -47,8 +47,9 @@ Some examples on how to format in Markdown (.md) [README.md]
       <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
   ```
   
-  Or even some fancy Javascript
+  Or even some fancy Javascript 
   ```
+    Markdown file edit example text: 
     ```Javascript   
       app.use('/image-carousel', proxy(config.proxies.images));
       app.use('/api/images', proxy(config.proxies.images, {
@@ -60,6 +61,7 @@ Some examples on how to format in Markdown (.md) [README.md]
       }));
     ```
   ```
+  Turns into this F.A.F. code
   ```Javascript   
       app.use('/image-carousel', proxy(config.proxies.images));
       app.use('/api/images', proxy(config.proxies.images, {
