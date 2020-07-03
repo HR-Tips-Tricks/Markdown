@@ -20,7 +20,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | <img src='/images/chkboxex.png' width='200px' /> |
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```HTML A whole bunch of code``` 	|
-| Reference Headers | \[Footer Example\](\#Here's a footer example)               | [Footer Example](#Here's a footer example) |
+| Reference Headers | \[Footer Example\](\#heres-a-footer-example)               | [Footer Example](#heres-a-footer-example) |
 | Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! <img src='images/nyancat.png' width='100px' /> 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me <a href='https://www.youtube.com/watch?v=QH2-TGUlwu4' target="_blank"><img src='images/nyancat.png' width='100px' /></a> |
 | Preformatted 	    | \ \ Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
@@ -35,7 +35,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
-  <h2>Here's a footer example<h2>
+  <h2>Here's a footer example</h2>
   The footer subscript <sup><a>1</a></sup> below is written in HTML.<br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>
   
@@ -83,7 +83,9 @@ Some examples on how to format in Markdown (.md) [README.md]
   
   
   Note:
-    - When mixing HTML and Markdown code, you'll need to do TWO hard Enters after the line before switching to one or the other.
+    - When mixing HTML and Markdown code, you'll need to do TWO hard Enters after the line before switching to one or the other. 
+    - Best practice is just to stick to one language throughout the document.
+    
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
