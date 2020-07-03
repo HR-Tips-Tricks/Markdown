@@ -20,6 +20,6 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` 	|
 | Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! ![image](/images/nyancat.png) 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4) 	|
-| Footnotes  	      | I have more \[^1\] to say.   \[^1\]: say it down here. 	    | <a href="#section1">Hey,Please read the note below this table.  	|
-| Preformatted 	    | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
+| Footnotes  	      | You're really bringing me down\[^1\].   \[^1\]:down here. 	|  You're really bringing me down[^1].   [^1]:down here. 	|
+| Preformatted 	    | \ \ Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
 | Tables 	          | \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
