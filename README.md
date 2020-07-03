@@ -3,7 +3,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 | Format            | Syntax      | Example |
 | ------            |-----        |-----    |
-| Headers 	        | \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>This is a h3 header</h3>	|
+| Headers 	        | \#, \##, \###, \####, \#####, \###### (from h1 to h6) <br> \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>     	|  <h3>This is a h3 header</h3>	|
 | Italic  	        | \*Italic Text\*  OR \_Italic Text\_	| *Italic Text* 	|
 | Bold  	          | \*\*Bold Text\*\* 	OR \_\_Bold Text\_\| **Bold Text** 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
