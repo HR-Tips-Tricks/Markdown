@@ -30,4 +30,4 @@ Some examples on how to format in Markdown (.md) [README.md]
 alignment| left| center | right 
 
 
-- [ ] Get service deployed <br> - [x] Have fun while doing it
+- [ ] Get service deployed <br> - [X] Have fun while doing it
