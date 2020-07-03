@@ -35,8 +35,8 @@ Some examples on how to format in Markdown (.md) [README.md]
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
   <h4>Here's a footer example</h4>  
   The footer subscript <sup><a>1</a></sup> below is written in HTML.<br>
-  You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup><br>
-  We can then tag it with some cool HTML syntax coloring with <br>
+  You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup> _Notice_ the id within the tag: `<sup><a href="\#fn1" id="ref1">1</a></sup><br>` <br>
+  We can then create a footer tag and reference the ID, with some cool HTML syntax coloring with <br>
   
   ```  
     ```HTML   
