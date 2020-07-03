@@ -34,9 +34,8 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
   <h4>Here's a footer example</h4>  
-  The footer subscript <text color='blue'>1</text> below is written in HTML.   <br>
+  The footer subscript <span text-color='red'>1</span> below is written in HTML.   <br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>   
-  
   We can then tag it with some cool HTML syntax coloring with   
   ```
     ```HTML   
@@ -47,6 +46,30 @@ Some examples on how to format in Markdown (.md) [README.md]
   ```HTML 
       <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
   ```
+  
+  Or even some fancy Javascript
+  ```
+    ```Javascript   
+      app.use('/image-carousel', proxy(config.proxies.images));
+      app.use('/api/images', proxy(config.proxies.images, {
+        ProxyReqPathResolver: (req) => {
+          const parts = req.url.split('?');
+          const queryString = parts[1];
+          return `/api/images${queryString ? `?${queryString}` : ''}`;
+      },
+      }));
+    ```
+  ```
+  ```Javascript   
+      app.use('/image-carousel', proxy(config.proxies.images));
+      app.use('/api/images', proxy(config.proxies.images, {
+        ProxyReqPathResolver: (req) => {
+          const parts = req.url.split('?');
+          const queryString = parts[1];
+          return `/api/images${queryString ? `?${queryString}` : ''}`;
+      },
+      }));
+   ```
   
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
