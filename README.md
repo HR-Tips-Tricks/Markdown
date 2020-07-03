@@ -32,8 +32,16 @@ Some examples on how to format in Markdown (.md) [README.md]
   <h4>Here's a footer example</h4>  
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>
   and then tag it with HTML cool syntax coloring with  
-  \`\`\`HTML text of stuff \`\`\`
+  `
+  ```HTML 
+    text of stuff
+  ```
+  `
   
   ```HTML 
       <sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
   ```
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
