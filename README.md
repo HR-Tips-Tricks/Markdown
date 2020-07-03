@@ -9,7 +9,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Bold with nested Italic | \*\*Only \*Italic\* is the Boldest\*\*                | **Only *Italic* is the Boldest**  |
 | Italic with nested Bold | \*Italic Stallion is the \*\*Boldest\*\*\*            | *Italic Stallion is the **Boldest***   |
 | Both Italic and Bold | \*\*\* Boldest Italic Stallion\*\*\*                     | ***Boldest Italic Stallion***   |
-| Strike through 	  | \~~Strike through text, neat\~~ 	                          | ~~Strike through text, neat~~ 	|
+| Strike through 	  | \~\~Strike through text, neat\~\~ 	                          | ~~Strike through text, neat~~ 	|
 | Unordered Lists 	| \- Item 1  <br>   \+ Item 2  <br>  \* Item 7777             | <ul><li>Item 1</li><li>Item 2</li><li>Item 7777</li></ol>	  |
 | Ordered Lists 	  | 1. Item A  <br>  2. Item 58008	                            | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
 | Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                          | <ol><li>Item 6969</li></ol><ul><li>item 1a</li></ul> 		|
@@ -18,8 +18,8 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
 | Code 	            | \`That sweet code you wanna show;\` 	                      | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` 	|
-| Images 	          | \![Caption\](url to img) 	                                  | An image ![image](/images/nyancat.png) 	|
-| Link+images 	    | \[\![Caption\](url to img)\](url to a page)\] 	            | Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
+| Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! ![image](/images/nyancat.png) 	|
+| Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4) 	|
 | Footnotes  	      | I have more \[^1\] to say.   \[^1\]: say it down here. 	    | <a href="#section1">Hey,Please read the note below this table.  	|
 | Preformatted 	    | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
 | Tables 	          | \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
