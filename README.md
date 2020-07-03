@@ -61,7 +61,7 @@ Some examples on how to format in Markdown (.md) [README.md]
           const parts = req.url.split('?');
           const queryString = parts[1];
           return `/api/images${queryString ? `?${queryString}` : ''}`;
-      },
+        },
       }));
     ```
   ```
@@ -76,7 +76,10 @@ Some examples on how to format in Markdown (.md) [README.md]
       },
       }));
    ```
+   
+  Cool AF, right? Let's get nerdy.
   
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<sup id="fn1">1 down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
+<sup id="fn1">1 Why are you down here?<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
