@@ -13,7 +13,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Unordered Lists 	| \- Item 1  <br>   \+ Item 2  <br>  \* Item 7777              | <ul><li>Item 1</li><li>Item 2</li><li>Item 7777</li></ol>	  |
 | Ordered Lists 	  | 1. Item A  <br>  2. Item 58008	                              | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
 | Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                            | <ol><li>Item 6969</li></ol><ul><li>item 1a</li></ul> 		|
-| Emojies :exclamation:   | :+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat:      | :+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat: |
+| Emojis:exclamation:  | \:+1\: \:metal\: \:octocat\: \:neckbeard\:  /play secret     | :+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat: |
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! | <blockquote>Woah, look how cool this is</blockquote><br><blockquote> And on multiple lines!</blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
