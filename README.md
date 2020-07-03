@@ -19,7 +19,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Inline links 	    | \[Description text\](url here) <br> example on right: `github [training wheels](https://try.github.io/)`  	| github [training wheels](https://try.github.io/) 	|
 | Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | <img src='/images/chkboxex.png' width='200px' /> |
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
-| Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```             ```` <br> ``` A whole bunch of code``` <br> ```       ```  	|
+| Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` (renders different on page) 	|
 | Reference Headers | \[Footer Example\](\#heres-a-footer-example)               | [Footer Example](#heres-a-footer-example) |
 | Thin Thematic Break  | Measly Underline <br> \-\-\-                                | Measly Underline (thin line note available)  |
 | Thick Thematic Break | Purposeful Underline <br><br> \-\-\-                        | Purposeful Underline <hr> |
