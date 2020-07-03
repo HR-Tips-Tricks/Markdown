@@ -21,7 +21,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` (renders different on page, examples down yonder) 	|
 | Reference Headers | \[Footer Example\](\#heres-a-footer-example)               | [Footer Example](#heres-a-footer-example) |
-| Thin Thematic Break  | Measly Underline <br> \-\-\-                                | Measly Underline (thin line note available)  |
+| Thin Thematic Break  | Measly Underline <br> \-\-\-                                | Measly Underline (thin line not available)  |
 | Thick Thematic Break | Purposeful Underline <br><br> \-\-\-                        | Purposeful Underline <hr> |
 | Extra spaces <br> <sup><i>only one space is allowed between words</i><sup> | \&nbsp; (one space) <br> \&ensp; (two spaces) <br> \&emsp; (four spaces) | Blah &nbsp;Blah <br> Blah &ensp;Blah <br> Blah &emsp;Blah
 | Escaping with backslashes |  \\\ \\` \\* \\_ \\{\\} \\[\\] \\(\\) \\# \\+ \\- \\. \\! | \\ \` \* \_ \{\} \[\] \(\) \# \+ \- \. \!
