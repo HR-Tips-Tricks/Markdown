@@ -14,14 +14,13 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Ordered Lists 	  | 1. Item A  <br>  2. Item 58008	                              | <ol><li>Item A</li><li>Item 58008</li></ol>  	|
 | Mixed Lists 	    | 1. Item 6969  <br>   \- item 1a 	                            | <ol><li>Item 6969</li></ol><ul><li>item 1a</li></ul> 		|
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                  | Some text  <br>  Moar Text 	|
-| Block quote 	    | \> Woah, look how cool this is	                              | <blockquote>Woah, look how cool this is</blockquote> 	|
+| Block quote 	    | \> Woah, look how cool this is	 <br> \> And on multiple lines! | <blockquote>Woah, look how cool this is</blockquote><br><blockquote> And on multiple lines!</blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
 | Check boxes       | \- \[ \] Get service deployed <br> \- \[x\] Have fun while doing it | <img src='/images/chkboxex.png' width='200px' /> |
 | Code 	            | \`That sweet code you wanna show;\` 	                       | `That sweet code you wanna show;` 	|
 | Code block/ Syntax highlighting 	| \`\`\`A whole bunch of code\`\`\` 	        |  ```A whole bunch of code``` 	|
 | Images 	          | \Text ![Caption\](url to img)<br>example on right: `Nyancat! ![image](/images/nyancat.png)`  | Nyancat! <img src='images/nyancat.png' width='100px' /> 	|
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\]<br>example of right: `Click me [![me](/images/nyancat.png)](https://www.youtube.com/watch?v=QH2-TGUlwu4)`        | Click me <a href='https://www.youtube.com/watch?v=QH2-TGUlwu4' target="_blank"><img src='images/nyancat.png' width='100px' /></a> |
-| Footnotes  	      | You're really bringing me down\[^1\].   \[^1\]:down here. 	|  You're really bringing me down<sup><a href="#fn1" id="ref1">1</a></sup>.<br>   <sup id="fn1">1. down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> 	|
 | Preformatted 	    | \ \ Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
 | Tables 	          | \| \| Tables \|    Are    \| Coolness \|<br> \|---\|----------\|:-------------:\|------:\| <br> \|alignment\|left\|center\|right\| | (See Below)  |
 
@@ -29,8 +28,9 @@ Some examples on how to format in Markdown (.md) [README.md]
 |---|----------|:-------------:|------:|
 |alignment| left| center | right |
 
-You're really bringing me down[^1]. 
-
-[^1]:down here.
-
-- [ ] \(Optional) Open a followup issue
+<h2>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h2>
+  <h4>Here's a footer example</h4>
+  ```HTML
+    You're really bringing me down<sup><a href="#fn1" id="ref1">1</a></sup>
+    <sup id="fn1">1. down here<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
+  ```
