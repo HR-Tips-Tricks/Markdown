@@ -3,7 +3,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 | Format            | Syntax                                                      | Example |
 | ------            |-----                                                        |-----    |
-| Headers 	        | \#, \##, \###, \####, \#####, \###### (from h1 to h6)                                                                                                         <br> \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>                     |  <h4>This is a h4 header</h4>	|
+| Headers 	        | \#, \##, \###, \####, \#####, \###### (from h1 to h6)                                                                                                         <br> \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>                     |  <h3>This is a h3 header</h3>	|
 | Italic  	        | \*Italic Stallion\*  OR \_Italic Stallion\_	                 | *Italic Stallion* 	|
 | Bold  	          | \*\*Only the Boldest\*\* 	OR \_\_Only the Boldest\_\_        | **Only the Boldest** 	|
 | Bold with nested Italic | \*\*Only \*Italic\* is the Boldest\*\*                | **Only *Italic* is the Boldest**  |
