@@ -35,7 +35,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 
 
 <h3>If you don't like the markup ways, you can actually just code in HTML, like much of this table was done in.</h3>  
-  ####Here's a footer example#### 
+  <h2>Here's a footer example<h2>
   The footer subscript <sup><a>1</a></sup> below is written in HTML.<br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>
   
@@ -81,6 +81,9 @@ Some examples on how to format in Markdown (.md) [README.md]
    
   Cool, right? Let's get nerdy.
   
+  
+  Note:
+    - When mixing HTML and Markdown code, you'll need to do TWO hard Enters after the line before switching to one or the other.
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
