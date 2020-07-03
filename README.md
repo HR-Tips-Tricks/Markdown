@@ -37,6 +37,7 @@ Some examples on how to format in Markdown (.md) [README.md]
   The footer subscript <span text-color='red'>1</span> below is written in HTML.   <br>
   You're really bringing me down<sup><a href="\#fn1" id="ref1">1</a></sup>   
   We can then tag it with some cool HTML syntax coloring with    
+  
   ```  
     ```HTML   
       text of stuff
