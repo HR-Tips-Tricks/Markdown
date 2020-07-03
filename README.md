@@ -28,3 +28,6 @@ Some examples on how to format in Markdown (.md) [README.md]
  | Tables   |      Are      |  Coolness 
 ---|----------|:-------------:|------:
 alignment| left| center | right 
+
+
+[ ] Get service deployed <br> [x] Have fun while doing it
