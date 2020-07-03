@@ -10,9 +10,9 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Italic with nested Bold | \*Italic Stallion is the \*\*Boldest\*\*\*            | *Italic Stallion is the **Boldest***   |
 | Both Italic and Bold | \*\*\* Boldest Italic Stallion\*\*\*                     | ***Boldest Italic Stallion***   |
 | Strike through 	  | \~~Strike through text, neat\~~ 	                          | ~~Strike through text, neat~~ 	|
-| Unordered Lists 	| \- Item 1     \+ Item 2 	                                  | -Item 1  <br>  +Item 2 	|
-| Ordered Lists 	  | \1. Item A    \2. Item B	                                  | 1. Item A  <br>  2. Item B  	|
-| Mixed Lists 	    | \1. Item 1      \* item 1a 	                                | 1. Item 1  <br>  * item 1a 		|
+| Unordered Lists 	| \- Item 1     \+ Item 2    \* Item 7777                               | - Item 1  <br>  + Item 2  <br> * Item 3	|
+| Ordered Lists 	  | 1. Item A    2. Item 58008	                                  | 1. Item A  <br>  2. Item B  	|
+| Mixed Lists 	    | 1. Item 6969     \* item 1a 	                                | 1. Item 1  <br>  * item 1a 		|
 | Line breaks 	    | Some text [Double space + enter] 	Moar Text                 | Some text  <br>  Moar Text 	|
 | Block quote 	    | \> Quoted text 	                                            |  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Inline links 	    | \[Description text\](url here) <br> example on right: `A [link](http://www.github.com)`  	| A [link](http://www.github.com) 	|
