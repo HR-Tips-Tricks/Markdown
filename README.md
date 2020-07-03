@@ -15,7 +15,6 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Link+images 	    | \[\![Caption\](url to img)\](url to a page)\] 	            | Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
 | Footnotes  	      | I have more \[^1\] to say.   \[^1\]: say it down here. 	    | <a href="#section1">Hey,Please read the note below this table.  	|
 | Line breaks 	    | Some text \ \Double space + enter 	Moar Text               | Some text  Moar Text 	|
-
 | Block quote 	    | \> Quoted text 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Preformatted 	    | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
 | Code 	            | \`Insert Code\` 	| `cout<<"Hello world";` 	|
