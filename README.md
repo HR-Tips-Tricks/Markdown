@@ -23,7 +23,7 @@ Some examples on how to format in Markdown (.md) [README.md]
 | Footnotes  	      | You're really bringing me down\[^1\].   \[^1\]:down here. 	|  You're really bringing me down[^1].   [^1]:down here. 	|
 | Preformatted 	    | \ \ Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
 | Tables 	          | \| \| Tables \| Are\|Coolness \|<br> \|---\|----------\|:-------------:\|------:\| <br> \|alignment\| left\| center \| right \|
-  | ![](/images/Markdown table example.png)  |
+  | ![table](/images/Markdown table example.png)  |
 
 | | Tables   |      Are      |  Coolness | 
 |---|----------|:-------------:|------:| 
